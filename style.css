@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 6px 6px 0 black;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.learning {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.date {
+    font-size: 15px;
+    color: grey;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description {
+    color: grey;
+    font-size: 13px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img {
+    height: 40px;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 12px;
+}
